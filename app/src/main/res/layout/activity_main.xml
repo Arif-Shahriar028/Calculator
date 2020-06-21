@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.calculator.MainActivity">
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_marginLeft="55dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:hint="@string/hint1"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#5B5656"
+        android:textCursorDrawable="@null"
+        />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_marginLeft="55dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#5B5656"
+        android:hint="@string/hint2"
+        android:inputType="numberDecimal"
+        android:textCursorDrawable="@null"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#96E0D1"
+        >
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:text="@string/button1Text"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/button2Text"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#96E0D1"
+        >
+
+        <Button
+            android:id="@+id/mul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/multiButton"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/divideButton"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sumShow"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#ACF1AF"
+        android:text="Result : "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:text="Clear" />
+
+    <TextView
+        android:id="@+id/memory"
+        android:layout_width="306dp"
+        android:layout_height="48dp"
+        android:text="Memory : "
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>

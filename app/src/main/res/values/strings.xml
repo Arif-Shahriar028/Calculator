@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="hint1">Enter 1st number</string>
+    <string name="hint2">Enter 2nd number</string>
+    <string name="button1Text">+</string>
+    <string name="button2Text">-</string>
+    <string name="multiButton">*</string>
+    <string name="divideButton">/</string>
+    <string name="AddButton">Button clicked</string>
+    <string name="subButton">Sub button clicked</string>
+
+</resources>
